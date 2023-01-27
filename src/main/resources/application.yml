@@ -1,0 +1,14 @@
+app:
+  dbone:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/dekanat_vse2
+      username: postgres
+      password: 635756
+      #password: XQgMkdWEj2N7
+      class-driver: org.postgresql.Driver
+  dbtwo:
+    datasource:
+      url: jdbc:jtds:sqlserver://localhost/dekanat
+      username: ""
+      password: ""
+      class-driver: net.sourceforge.jtds.jdbc.Driver
